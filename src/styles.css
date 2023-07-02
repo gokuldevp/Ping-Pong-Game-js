@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Backgroup */
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(silver, rgba(255, 217, 0, 0.548));
+  margin: 0;
+}
+
+/* Rods class*/
+.rod {
+  position: absolute;
+  width: 150px;
+  height: 20px;
+  background-color: blue;
+  bottom: 10px;
+  border-radius: 10px;
+  left: 45%;
+}
+
+/* Rod down */
+#rod-down {
+  top: 10px;
+  background-color: red;
+}
+
+/* Text */
+p {
+  padding: 0 0;
+  margin: 2px 50px;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Ball */
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  top: 95.5%;
+  right: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
